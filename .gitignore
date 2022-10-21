@@ -45,3 +45,4 @@ dist-ssr
 *.sln
 *.sw?
 package-lock.json
+hardhat.config.ts

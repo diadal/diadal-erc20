@@ -38,9 +38,9 @@ async function main() {
   );
 
   console.log("Bank deployed to:", bankContract.address, "by", signer1.address);
-  console.log("Matic deployed to:", matic.address, "by", signer2.address);
-  console.log("Shib deployed to:", shib.address, "by", signer2.address);
-  console.log("Tether deployed to:", usdt.address, "by", signer2.address);
+  console.log("Matic deployed to:", matic.address, "by", signer1.address);
+  console.log("Shib deployed to:", shib.address, "by", signer1.address);
+  console.log("Tether deployed to:", usdt.address, "by", signer1.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
